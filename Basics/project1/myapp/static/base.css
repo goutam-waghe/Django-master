@@ -1,0 +1,36 @@
+ body {
+        width: 100%;
+        min-height:100vh;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color: violet;
+    }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.header ul{
+display: flex;
+gap: 40px;
+align-items: center;
+list-style: none;
+}
+.header ul li {
+list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
